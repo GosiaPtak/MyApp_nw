@@ -1,0 +1,17 @@
+{
+"name":"MyApp",
+    "main":"index.html",
+  "scripts": {
+    "start": "nw"
+  },
+  "window":{
+  	"show": true,
+    "toolbar": false,
+    "frame": false,
+    "position": "center",
+    "width": 650,
+    "height": 500,
+    "transparent": true,
+    "resizable": false
+  }
+}
