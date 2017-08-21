@@ -1,0 +1,123 @@
+html, body {
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    font-size: 14px;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	-webkit-app-region: drag;
+}
+
+nav[role="nav_links"]{
+	position: fixed;
+	top: 0;
+	float: left;
+	width: 25%;
+	height: 100%;
+	background-color: rgba(16, 16, 34, 0.9);/*#101022;*/
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+nav[role="nav_links"]>a{
+	padding-left: 15px;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	text-decoration: none;
+	color: #fff;
+
+}
+nav[role="nav_links"]>a:hover, a:active{
+	background-color: #292a48;
+}
+span[role="count"]{
+	float: right;
+	padding-right: 15px;
+	color: #8a8995;
+}
+section[role="content"]{
+	
+	float: right;
+	background-color: #f6f6f6;
+	width: 75%;
+	height: auto;
+	min-height: 450px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+
+}
+
+article{
+		padding: 0 15px 0 15px;
+		color: #000;
+		margin-bottom: 10px;
+}
+ul[role="github_issues"]{
+	list-style: none;
+	padding: 0 0 0 0;
+}
+ul[role="github_issues"]>li{
+	line-height: 50px;
+	background-color: #fff;
+	border-radius: 5px 5px 5px 5px;
+	border: solid 1px #e0e0e0;
+	margin-bottom: 5px;
+}
+p[role="date"]{
+	color: #8a8995;
+	font-size: 0.8571em;
+}
+span[role="title"]{
+	padding-left: 13px;
+}
+span[role="star_icon"]{
+	float: right;
+	padding-right: 13px;
+}
+span[role="star_icon"]>svg {
+    fill: #fff;
+    fill-rule: evenodd;
+    stroke: #e0e0e0;
+    stroke-width:1;
+}
+.active_star {
+    fill: #000;
+    fill-rule: evenodd;
+    stroke: #e0e0e0;
+    stroke-width:1;
+}
+/*buttons*/
+.sys_btn{
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
+  border:1px solid;
+  width: 5px;
+  height: 15px;
+  color:#ffffff;
+  font-size:0.500em;
+  text-decoration:none;
+  display:inline;
+  text-align: center;
+}
+.btn__close {
+  margin: 15px 0px 15px 15px;
+  background-color:#ff584f;
+  border-color:#ff584f;
+}
+
+.btn__min {
+  background-color:#ffbc1b;
+  border-color:#ffbc1b;
+}
+.btn__max {
+  background-color:#00cd46;
+  border-color:#00cd46;
+}
+
+/*
+width of window: 650
+height: 500
+font-size: 14px nav
+width of nav: 150px
+heigh of nav item: 50px
+*/
