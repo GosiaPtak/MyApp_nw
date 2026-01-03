@@ -56,7 +56,8 @@ yarn nw .
 Instead, run the NW.js binary directly and point it at the project directory:
 
 ```bash
-./node_modules/nw/nwjs-v0.106.1-osx-arm64/nwjs.app/Contents/MacOS/nwjs .
+./node_modules/nw/nwjs-v0.105.0-osx-arm64/nwjs.app/Contents/MacOS/nwjs . \
+--user-data-dir=/tmp/nwjs-clean-profile
 ```
 
 If you are using a different NW.js version, adjust the path accordingly.
