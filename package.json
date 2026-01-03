@@ -1,11 +1,11 @@
 {
-"name":"MyApp",
-    "main":"index.html",
+  "name": "MyApp",
+  "main": "index.html",
   "scripts": {
     "start": "nw"
   },
-  "window":{
-  	"show": true,
+  "window": {
+    "show": true,
     "toolbar": false,
     "frame": false,
     "position": "center",
@@ -13,5 +13,8 @@
     "height": 500,
     "transparent": true,
     "resizable": false
+  },
+  "dependencies": {
+    "nw": "^0.106.1"
   }
 }
