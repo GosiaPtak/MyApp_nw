@@ -7,14 +7,14 @@
   "window": {
     "show": true,
     "toolbar": false,
-    "frame": false,
+    "frame": true,
     "position": "center",
     "width": 650,
     "height": 500,
     "transparent": true,
-    "resizable": false
+    "resizable": true
   },
   "dependencies": {
-    "nw": "^0.106.1"
+    "nw": "0.95.0"
   }
 }
